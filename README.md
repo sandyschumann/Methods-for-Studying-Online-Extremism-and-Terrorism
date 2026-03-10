@@ -1,6 +1,6 @@
 **Conducting a LLM-assisted sentiment analysis**
 
-This annotated code allows you conducted a basic sentiment analysis with Llama-4-Maverick.
+This annotated code allows you to conduct a basic sentiment analysis with Llama-4-Maverick.
 
 We recommend consulting these websites, used as sources to build this code:
 
