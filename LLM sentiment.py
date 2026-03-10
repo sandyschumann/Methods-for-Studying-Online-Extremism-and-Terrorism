@@ -8,7 +8,9 @@ Created on Thu Sep 18 13:39:52 2025
  
 #%% First, you need to import the necessary modules and libraries (the tools) to run the code. 
 #You are importing tools to allow the use of LLMs (Llama Maverick) for sentiment analysis.
-#Please bear in mind that, due to the nature of the data used,you might have to use an ablated version of a model, or alter certain model parametres; otherwise, the requests sent to the model may be denied,due to the language the data contains.
+#Please bear in mind that, due to the nature of the data used,
+#you might have to use an ablated version of a model, or alter certain model parametres; otherwise, the requests sent to the model may be denied,
+#due to the language the data contains.
 
 import os
 from openai import OpenAI
@@ -88,6 +90,7 @@ for di in range(len(df)):
 
 df = df.assign(SentimentAnalysis = lresults)
 df.to_csv("yourdata.csv ", index = False)
+
 
 
 
